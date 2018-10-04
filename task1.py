@@ -74,18 +74,22 @@ def combine(x,y,z):
 	values=list(zip(x,y,z))
 	return(values)
 combine(nameif_new,vlan,ip)
+"""
+def dict(x,y):
+	id_dict[x]=y
 
 
 def keys(interface_name):
 	for i in interface_name:
-		return(i)
-
+		print(i)
+#keys(interface_name)
 
 def value(values):
 	for i in values:
-		return(i)
+		print(i)
+#value(values)
+"""
+res=dict(zip(interface_name,values))
+for i in res:
+	print(i)
 
-def dict(x,y):
-	id_dict[x]=y
-dict(keys(interface_name),value(values))
-print(id_dict)
